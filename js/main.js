@@ -206,7 +206,7 @@ function playbrass() {
     const tempo = 140 / 2
     const beat = 60 / tempo
     const bar = beat * 4
-    for(let a = 0; a < 4; a++) {
+    for(let a = 0; a < 2; a++) {
         const delayA = a * bar * 4
         brassnotes[1] = randnote(minor)
         brassnotes[3] = randnote(minor)
